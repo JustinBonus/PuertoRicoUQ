@@ -1,0 +1,45 @@
+# PuertoRicoUQ
+### Henry Watson, Pedro Arduino, Justin Bonus
+
+Automated workflow for state-of-the-art tsunami hazard analysis in Puerto Rico with uncertainty quantification. 
+
+``Probabalistic Tsunami Hazard Analysis (PTHA)`` >> ``Bathymetry and Topography Acquisition (NOAA/NCEIS/USGS)`` >> ``AI inventory generation (BRAILS++)`` >> ``Boussinesq Wave Simulation (CelerisAi)`` >> ``Hydrodynamic and Structural Response (OpenSees)`` >> ``Uncertainty Quantification and Surrogate Modeling (HydroUQ)`` >> ``Damage and Loss Estimation (pelicun/PBE)`` >> ``Regional Risk and Resilience Assessment (R2D2)``
+
+
+## Run cases parametrically through HydroUQ
+
+For parametric simulations, where you want to probabilistically sample hydrodynamic and structural parameters, you can run from HydroUQ. If you want to couple hydrodynamic forces to OpenSees, you should also run from HydroUQ.
+
+```powershell
+
+..\HydroUQ_Windows_Download\Hydro_UQ.exe
+
+```
+
+or 
+
+```bash
+
+../HydroUQ/build/Hydro_UQ
+
+```
+
+and go to 
+
+`Top Bar` >> `Examples` >> `Near-Real Time - Loiza - CelerisAi` 
+
+then select the appropriate configuration, bathymetry, and wave files from the PuertoRicoUQ project. 
+
+> ⚠️ All three input files (config.json, bathy.txt, and waves.txt) are required to be in the specified directory (`./src/sites/Loiza/example_case`).
+
+
+## Run cases individually through Celeris
+
+For one-off simulations, you can run the Celeris simulation directly from the command line.
+
+```bash
+
+python3 ../SimCenterBackendApplications/modules/createEVENT/Celeris/setrun.py -d ./src/sites/Loiza/example_case -f config.json -b bathy.txt -w waves.txt
+
+```
+> ⚠️ All three input files (config.json, bathy.txt, and waves.txt) are required to be in the specified directory (`./src/sites/Loiza/example_case`).
