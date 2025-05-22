@@ -4,12 +4,19 @@
 Puerto Rico's automated workflow for state-of-the-art tsunami hazard analysis with automated inventory generation, near-real time wave simulation, structural analysis, uncertainty quantification, and surrogate modeling. 
 
 > ``Probabalistic Tsunami Hazard Analysis (PTHA)`` 
+
 > ``Bathymetry and Topography Acquisition (NOAA/NCEIS/USGS)`` 
+
 > ``AI inventory generation (BRAILS++)`` 
+
 > ``Boussinesq Wave Simulation (CelerisAi)`` 
+
 > ``Hydrodynamic and Structural Response (OpenSees)`` 
+
 > ``Uncertainty Quantification and Surrogate Modeling (HydroUQ)`` 
+
 > ``Damage and Loss Estimation (pelicun/PBE)`` 
+
 > ``Regional Risk and Resilience Assessment (R2D2)``
 
 
