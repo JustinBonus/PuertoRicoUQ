@@ -17,7 +17,7 @@ Puerto Rico's automated workflow for state-of-the-art tsunami hazard analysis wi
 
 > ``Damage and Loss Estimation (pelicun/PBE)`` 
 
-> ``Regional Risk and Resilience Assessment (R2D2)``
+> ``Regional Risk and Resilience Assessment (R2D)``
 
 
 ## Run cases parametrically through HydroUQ
