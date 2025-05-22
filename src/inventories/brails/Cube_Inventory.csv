@@ -1,0 +1,2 @@
+id,type,fpAreas,Longitude,Latitude,geometry,Occupancy,YearBuilt,NFloors
+0,Building,1,0,0,"POLYGON ((0.0 0.0, 0.00009000009 0.0, 0.00009000009 0.00009000009, 0.0 0.00009000009, 0.0 0.0))",Other,1960,1
