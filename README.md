@@ -57,3 +57,10 @@ python3 ../SimCenterBackendApplications/modules/createEVENT/Celeris/setrun.py -d
 
 ```
 > ⚠️ All three input files (config.json, bathy.txt, and waves.txt) are required to be in the specified directory (`./src/sites/Loiza/example_case`).
+
+## How-to Cite
+
+Bonus, J., Arduino, P., Watson, H., Xiao, D., Pakzad, A., & McKenna, F. (2025). PuertoRicoUQ (0.0.1). Zenodo. https://doi.org/10.5281/zenodo.15491891
+
+Zenodo: https://zenodo.org/records/15491890
+DOI: https://doi.org/10.5281/zenodo.15491890
